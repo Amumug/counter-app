@@ -6,10 +6,10 @@ export default function App() {
     <>
       <div className="flex flex-column min-h-screen justify-center items-center space-x-4">
           {counter}
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 border border-blue-700 rounded" onClick={() => setCounter(counter + 1)}>
+        <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 border border-blue-700 rounded-sm" onClick={() => setCounter(counter + 1)}>
           Increment
         </button>
-        <button className="bg-blue-800 hover:bg-green-200 text-white font-mono py-2 px-4 border border-cyan-600 rounded-sm" onClick={() => setCounter(counter - 1)}>
+        <button className="bg-red-400 hover:bg-red-500 text-white font-mono py-2 px-4 border border-cyan-600 rounded-sm" onClick={() => setCounter(counter - 1)}>
           Dicrement
         </button>
       </div>
