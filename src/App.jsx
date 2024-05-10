@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <div className="flex flex-column min-h-screen justify-center items-center space-x-4">
-          {counter}
+          <h1 className="text-4xl">{counter}</h1>
         <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 border border-blue-700 rounded-sm" onClick={() => setCounter(counter + 1)}>
           Increment
         </button>
